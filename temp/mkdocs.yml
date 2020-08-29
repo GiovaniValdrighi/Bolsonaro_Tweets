@@ -1,0 +1,9 @@
+site_name: Bolsonaro Tweets
+
+nav:
+- Home: index.md
+- Dados: data_scrapping_preprocessing.md
+
+theme:
+  name: null
+  custom_dir: 'cinder'

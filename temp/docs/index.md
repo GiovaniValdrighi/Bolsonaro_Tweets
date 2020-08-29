@@ -1,0 +1,6 @@
+# Bolsonaro Tweets
+Projeto final da disciplina de fundamentos de ciência dos dados ministrada pelo professor Jorge Poco na FGV-EMAp.
+
+Desde o início da pandemia de Covid-19, observamos cada vez mais o impacto da disseminação de informação através de redes sociais e blogs online. Através da credibilidade de certas imagens, como autoridades e famosos, as pessoas constroem suas crenças e opiniões sobre os assuntos.
+Dentro deste contexto, o Brasil está passando por uma fase em que os ideais políticos estão se tornando extremamente polarizados. Com o impeachment do último presidente e a quantidade de protestos contra o atual, sites como twitter e facebook estão produzindo cada vez mais uma maior quantidade de dados relacionados à este tema.
+Com isso, tweets, em especial os da família de Jair Bolsonaro (atual presidente do Brasil), são influentes e necessários para diversas análises da situação do país, como economia e outros setores. Apesar dos indicadores econômicos serem baseados em infinitas variáveis latentes, pode-se tentar identificar uma correlação entre suas variações e os tweets.
