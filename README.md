@@ -24,7 +24,7 @@ Em uma era de alta conectividade e um crescimento da polarização política em 
     
     - `logistic_classification`: Notebook contendo proposta de modelo alternativo; contém, ainda, apresentação do processo de modelagem, validação e discussões finais.   
     
-- `images/`: Pasta contendo as visualizações geradas na análise exploratória dos dados e também para a apresentação dos resultados de etapas individuais.
+    - `images/`: Pasta contendo as visualizações geradas na análise exploratória dos dados e também para a apresentação dos resultados de etapas individuais.
 
 Ainda, durante a execussão do código, deverá ser criado o diretório `data` na raíz do diretório principal contendo o conjunto de dados coletados e manipulados.
     
