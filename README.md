@@ -10,8 +10,6 @@ Em uma era de alta conectividade e um crescimento da polarização política em 
 
 # Repositório
 
-- `docs/`: Documentação do projeto, contendo arquivos para a geração do site construído para apresentar os resultados.
-
 - `notebooks/`: Notebooks Python contendo a descrição de cada uma das etapas do trabalho, os códigos para a realização, e as diferentes alternativas utilizadas para a obtenção do resultado final. Especificamente:
     
     - `data_scrapping`: Notebook contendo o processo de coleta dos dados tanto dos tweets quanto os índices econômicos. Para os tweets é apresentada a de coleta a partir de um conjunto disponível no Kraggle e a partir da API do Twitter com o auxílio da biblioteca [Tweepy](https://www.tweepy.org/). Para os índices econômicos é apresentada a coleta a partir da API do Banco Central do Brasil.
