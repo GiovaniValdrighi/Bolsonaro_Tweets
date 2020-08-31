@@ -10,21 +10,23 @@ Em uma era de alta conectividade e um crescimento da polarização política em 
 
 # Repositório
 
-- docs/: Documentação do projeto, contendo arquivos para a geração do site construído para apresentar os resultados.
+- `notebooks/`: Notebooks Python contendo a descrição de cada uma das etapas do trabalho, os códigos para a realização, e as diferentes alternativas utilizadas para a obtenção do resultado final. Especificamente:
+    
+    - `data_scrapping`: Notebook contendo o processo de coleta dos dados tanto dos tweets quanto os índices econômicos. Para os tweets é apresentada a de coleta a partir de um conjunto disponível no Kraggle e a partir da API do Twitter com o auxílio da biblioteca [Tweepy](https://www.tweepy.org/). Para os índices econômicos é apresentada a coleta a partir da API do Banco Central do Brasil.
+    
+    - `preprocessing`: Notebook contendo o processo de pré-processamento dos dados utilizados, adequando as diferentes variáveis para os seguintes processos de análise exploratória de dados e desenvolvimento de modelos.
+    
+    - `eda` : Notebook contendo o processo de geração das visualizações utilizadas para a identificação de características e padrões presentes nos dados, tanto para a verificação de hipóteses quanto para o desenvolvimento de modelos que levam em consideração características importantes dos dados.
+    
+    - `premodelling`: Notebook contendo o processo de extração de variáveis dos textos do tweets, que são a análise de sentimentos e a modelagem de tópicos.
+    
+    - `effects_tweeter_economic_data`: Notebook contendo o processo de criação e validação de modelos, também contém a apresentação dos resultados obtidos e da conclusão obtida com o desenvolvimento do trabalho.
+    
+    - `logistic_classification`: Notebook contendo proposta de modelo alternativo; contém, ainda, apresentação do processo de modelagem, validação e discussões finais.   
+    
+    - `images/`: Pasta contendo as visualizações geradas na análise exploratória dos dados e também para a apresentação dos resultados de etapas individuais.
 
-- notebooks/: Notebooks Python contendo a descrição de cada uma das etapas do trabalho, os códigos para a realização, e as diferentes alternativas utilizadas para a obtenção do resultado final. Especificamente:
-
-    - images/: Pasta contendo as visualizações geradas na análise exploratória dos dados e também para a apresentação dos resultados de etapas individuais.
-    
-    - data_scrapping: Notebook contendo o processo de coleta dos dados tanto dos tweets quanto os índices econômicos. Para os tweets é apresentada a de coleta a partir de um conjunto disponível no Kraggle e a partir da API do Twitter com o auxílio da biblioteca [Tweepy](https://www.tweepy.org/). Para os índices econômicos é apresentada a coleta a partir da API do Banco Central do Brasil.
-    
-    - preprocessing: Notebook contendo o processo de pré-processamento dos dados utilizados, adequando as diferentes variáveis para os seguintes processos de análise exploratória de dados e desenvolvimento de modelos.
-    
-    - eda : Notebook contendo o processo de geração das visualizações utilizadas para a identificação de características e padrões presentes nos dados, tanto para a verificação de hipóteses quanto para o desenvolvimento de modelos que levam em consideração características importantes dos dados.
-    
-    - premodelling: Notebook contendo o processo de extração de variáveis dos textos do tweets, que são a análise de sentimentos e a modelagem de tópicos.
-    
-    - effects_tweeter_economic_data: Notebook contendo o processo de criação e validação de modelos, também contém a apresentação dos resultados obtidos e da conclusão obtida com o desenvolvimento do trabalho.
+Ainda, durante a execussão do código, deverá ser criado o diretório `data` na raíz do diretório principal contendo o conjunto de dados coletados e manipulados.
     
 # Reprodução
 
@@ -71,3 +73,5 @@ Execute `/notebooks/premodelling.ipynb`.
 ### 5. Construção de modelos
 
 Execute `/notebooks/effects_tweeter_economic_data.ipynb`.
+
+Execute `/notebooks/logistic_classification.ipynb`.
